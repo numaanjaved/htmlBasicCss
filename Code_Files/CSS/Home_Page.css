@@ -47,7 +47,7 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
+  height: 748px;
   width: 100%;
   background-image: linear-gradient(
     to top right,
@@ -58,7 +58,7 @@ html {
 }
 .landing_Page_container::after {
   content: " ";
-  height: 100vh;
+  height: 748px;
   width: 100%;
   background-image: url("../../Project_Assets/Landing_Page_BG1.jpg");
   background-repeat: no-repeat;
@@ -162,7 +162,8 @@ html {
 
 .landing_page_section {
   padding: 5rem 20rem;
-  height: 100vh;
+  height: 748px;
+  width: 100%;
   position: relative;
   top: 0;
   left: 0;
@@ -173,7 +174,7 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 748px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -1260,33 +1261,3 @@ html {
     }
   }
 }
-
-/* 
-> .partner_logo:nth-child(1) {
-  width: 10rem;
-}
-> .partner_logo:nth-child(2) {
-  width: 10rem;
-}
-> .partner_logo:nth-child(3) {
-  width: 14rem;
-}
-> .partner_logo:nth-child(4) {
-  width: 12rem;
-}
-> .partner_logo:nth-child(5) {
-  width: 11rem;
-}
-> .partner_logo:nth-child(6) {
-  width: 12rem;
-  margin-bottom: 2.5rem;
-  margin-right: 4rem;
-}
-> .partner_logo:nth-child(7) {
-  width: 5rem;
-  margin-right: 4rem;
-  margin-bottom: 1rem;
-}
-> .partner_logo:nth-child(8) {
-  width: 11rem;
-} */
