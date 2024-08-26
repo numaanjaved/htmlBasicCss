@@ -148,10 +148,23 @@ html {
         background-color: #ffffff00;
         border: none;
         margin-left: 3rem;
-        > .fa-bars {
-          font-size: 2.7rem;
-          color: var(--light);
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        &:hover {
           cursor: pointer;
+        }
+        > .bars {
+          display: block;
+          content: " ";
+          background-color: var(--light);
+          height: 3px;
+          width: 22px;
+          border-radius: 20px;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          -ms-border-radius: 20px;
+          -o-border-radius: 20px;
         }
       }
     }
@@ -662,7 +675,8 @@ html {
         &:hover {
           cursor: pointer;
         }
-        > .fa-play {
+        > .services_section_play_button {
+          height: 35px;
           margin-left: 5px;
         }
       }
@@ -930,9 +944,8 @@ html {
             justify-content: center;
             align-items: center;
             column-gap: 5px;
-            > .fa-star {
-              color: var(--sharp-pink);
-              font-size: 1.5rem;
+            > img {
+              height: 1.8rem;
             }
           }
           > .client_name {

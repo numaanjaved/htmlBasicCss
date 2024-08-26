@@ -32,14 +32,6 @@
 
     <!-- Importing CSS Files -->
     <link rel="stylesheet" href="./Code_Files/CSS/Home_Page.css" />
-    <!-- FontsAwesome Link -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
 
   <body>
@@ -58,7 +50,7 @@
         <div class="list_container">
           <ul class="header_items_list">
             <li class="list_items">
-              <a href="./Home_Page.html" class="li_links">Home</a>
+              <a href="./index.htmls" class="li_links">Home</a>
             </li>
             <li class="list_items"><a href="/" class="li_links">About</a></li>
             <li class="list_items">
@@ -69,7 +61,11 @@
             <li class="list_items"><a href="/" class="li_links">Faq</a></li>
             <li class="list_items"><a href="/" class="li_links">Contact</a></li>
           </ul>
-          <button class="btn"><i class="fa-solid fa-bars"></i></button>
+          <button class="btn">
+            <span class="bars"></span>
+            <span class="bars"></span>
+            <span class="bars"></span>
+          </button>
         </div>
       </nav>
     </header>
@@ -249,7 +245,13 @@
               src="../../Project_Assets/services_section_image.png"
               alt="services Img"
             />
-            <button class="btn"><i class="fa-solid fa-play"></i></button>
+            <button class="btn">
+              <img
+                src="./Project_Assets/play_btn_white.png"
+                alt="play button icon"
+                class="services_section_play_button"
+              />
+            </button>
           </div>
         </div>
       </section>
@@ -388,11 +390,11 @@
               </p>
               <div class="client_info">
                 <div class="stars_container">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
+                  <img src="./Project_Assets/star_icon.png" alt="star_icon" />
+                  <img src="./Project_Assets/star_icon.png" alt="star_icon" />
+                  <img src="./Project_Assets/star_icon.png" alt="star_icon" />
+                  <img src="./Project_Assets/star_icon.png" alt="star_icon" />
+                  <img src="./Project_Assets/star_icon.png" alt="star_icon" />
                 </div>
                 <p class="client_name">Mr. John Doe</p>
               </div>
@@ -576,7 +578,7 @@
               </li>
 
               <li class="footer_list_item">
-                <a class="footer_list_item_link" href="/">privacy</a>
+                <a class="footer_list_item_link" href="/">Privacy</a>
               </li>
 
               <li class="footer_list_item">
