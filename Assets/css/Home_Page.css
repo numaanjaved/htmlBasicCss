@@ -145,16 +145,49 @@ html {
         }
       }
       > .btn {
-        background-color: #ffffff00;
         border: none;
         margin-left: 3rem;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         row-gap: 5px;
+        position: relative;
         &:hover {
           cursor: pointer;
         }
+        > .bars::before {
+          position: absolute;
+          top: 8px;
+          top: -8px;
+          left: 0;
+          display: block;
+          content: " ";
+          background-color: var(--light);
+          height: 3px;
+          width: 22px;
+          border-radius: 20px;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          -ms-border-radius: 20px;
+          -o-border-radius: 20px;
+        }
         > .bars {
+          display: block;
+          content: " ";
+          background-color: var(--light);
+          height: 3px;
+          width: 22px;
+          border-radius: 20px;
+          -webkit-border-radius: 20px;
+          -moz-border-radius: 20px;
+          -ms-border-radius: 20px;
+          -o-border-radius: 20px;
+        }
+        > .bars::after {
+          position: absolute;
+          top: 8px;
+          left: 0;
           display: block;
           content: " ";
           background-color: var(--light);
