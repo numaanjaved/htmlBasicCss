@@ -36,9 +36,9 @@
 
   <body>
    
-  <?php require './Assets/php/header.php'?>
-  <?php require './Assets/php/main.php'?>
-  <?php include './Assets/php/footer.php'?>  <!-- If there is error while using include it just shows warning and while using require it shows a fatal error  -->
+  <?php require './partials/header.php'?>
+  <?php require './partials/main.php'?>
+  <?php include './partials/footer.php'?>  <!-- while using include it just shows warning and while using require it shows a fatal error  -->
  
   </body>
 </html>
