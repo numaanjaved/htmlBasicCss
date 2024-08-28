@@ -21,25 +21,24 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="<?php './Assets/images/Favicon/favicon-32x32.png' ?>"
+      href="./Assets/images/Favicon/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="<?php './Assets/images/Favicon/favicon-16x16.png' ?>"
+      href="./Assets/images/Favicon/favicon-16x16.png"
     />
 
     <!-- Importing CSS Files -->
-    <link rel="stylesheet" href="<?php echo './Assets/css/Home_Page.css'?>" />
+    <link rel="stylesheet" href="./Assets/css/Home_Page.css" />
   </head>
 
   <body>
-    
-    <?php require './Assets/php/header.php'?>
-    <?php require './Assets/php/main.php'?>
-    <?php include './Assets/php/footer.php'?> <!-- while using include(a warning occurs) and while using require (a error occurs)  -->
-    
    
+  <?php require './Assets/php/header.php'?>
+  <?php require './Assets/php/main.php'?>
+  <?php include './Assets/php/footer.php'?>  <!-- If there is error while using include it just shows warning and while using require it shows a fatal error  -->
+ 
   </body>
 </html>
