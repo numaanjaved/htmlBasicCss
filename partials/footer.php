@@ -43,3 +43,27 @@ echo "</div>";
 echo "</div>";
 echo "</section>";
 echo "</footer>";
+
+
+
+//         <div class="sub_content">
+//           <div class="text_content_footer_bottom">
+//             <ul class="footer_items">
+//               <li class="footer_list_item">
+//                 <span id="copyright">&copy; Themes by psdfreebies.com</span>
+//               </li>
+
+//               <li class="footer_list_item">
+//                 <a class="footer_list_item_link" href="/">Privacy</a>
+//               </li>
+
+//               <li class="footer_list_item">
+//                 <a class="footer_list_item_link" href="/">Terms of Use</a>
+//               </li>
+
+//               <li class="footer_list_item">
+//                 <a class="footer_list_item_link" href="/">Site Map</a>
+//               </li>
+//             </ul>
+//           </div>
+//         </div>
