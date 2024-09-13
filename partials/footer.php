@@ -12,6 +12,14 @@ $company_images_data = [
   ['src' => "./Assets/images/Company_img3.png", 'alt' => "Company Image"],
   ['src' => "./Assets/images/Company_img4.png", 'alt' => "Company Image"],
 ];
+
+$footer_links = [
+  ['text' => '&copy; Themes by psdfreebies.com'],
+  ['text' => 'Privacy'],
+  ['text' => 'Terms of Use'],
+  ['text' => 'Site Map'],
+];
+
 echo "<footer class='footer'>";
 echo "<section class='footer_section_content'>";
 echo "<div class='main_content'>";
@@ -41,29 +49,26 @@ foreach ($company_images_data as $img) {
 }
 echo "</div>";
 echo "</div>";
+echo "<div class='sub_content'>";
+echo "<div class='text_content_footer_bottom'>";
+echo "<ul class='footer_items'>";
+foreach ($footer_links as $footer_Item) {
+  if ($footer_Item['text'] == '&copy; Themes by psdfreebies.com') {
+    echo "<li class='footer_list_item'>";
+    echo  "<span id='copyright'>";
+    echo $footer_Item['text'];
+    echo "</span>";
+    echo   "</li>";
+  } else {
+    echo "<li class='footer_list_item'>";
+    echo "  <a class='footer_list_item_link' href='/'>";
+    echo  $footer_Item['text'];
+    echo "</a>";
+    echo "</li>";
+  }
+}
+echo "</ul>";
+echo "</div>";
+echo "</div>";
 echo "</section>";
 echo "</footer>";
-
-
-
-//         <div class="sub_content">
-//           <div class="text_content_footer_bottom">
-//             <ul class="footer_items">
-//               <li class="footer_list_item">
-//                 <span id="copyright">&copy; Themes by psdfreebies.com</span>
-//               </li>
-
-//               <li class="footer_list_item">
-//                 <a class="footer_list_item_link" href="/">Privacy</a>
-//               </li>
-
-//               <li class="footer_list_item">
-//                 <a class="footer_list_item_link" href="/">Terms of Use</a>
-//               </li>
-
-//               <li class="footer_list_item">
-//                 <a class="footer_list_item_link" href="/">Site Map</a>
-//               </li>
-//             </ul>
-//           </div>
-//         </div>
