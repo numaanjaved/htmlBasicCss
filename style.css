@@ -1,28 +1,27 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    list-style: none;
-    text-decoration: none;
-
-}
- 
-.header{
-   /* Frame 1 */
-
-position: relative;
-width: 800px;
-height: 115px;
-
-background: #FFFFFF;
-
 }
 
-.inner_header{ 
-    width: 100%;
-    height: 40%;
-    display: block;
-    margin: 0 auto;
-    background: linear-gradient(to right, #a82254, #b8235a, #eb2364); ;
-
-
+body {
+    margin: 0;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    background-color: #ad2356;
+    height: 40px;
+    
+}
+
+
+
+.secondary-header {
+    background-color: #e3f5ff;
+    height: 100px;
+}
+
