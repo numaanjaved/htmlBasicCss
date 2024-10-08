@@ -1,0 +1,62 @@
+/* Add a black background color to the top navigation */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mynav {
+    background-color: rgba(33, 32, 32, 0.931);
+    color: white;
+    padding: 0 80px;
+}
+
+.top-nav {
+  padding: 20px 0;
+}
+
+ul.bottom-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.bottom-nav div {
+  display: flex;
+}
+
+.bottom-nav li {
+  margin: 0 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-nav li {
+  display: flex;
+}
+
+.top-nav svg {
+  margin: 0 8px;
+  color: yellow;
+  
+}
+
+
+.nav-button {
+  display: flex;
+  margin: 0 4px;
+  padding: 2px 4px;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.active {
+  border-bottom: 4px solid yellow;
+}
