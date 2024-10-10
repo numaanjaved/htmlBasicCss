@@ -45,12 +45,11 @@ nav > ul {
   display: flex;
 }
 
-.top-nav svg {
+.nav-logo {
   margin: 0 8px;
-  color: yellow;
+  filter: brightness(0) saturate(100%) invert(86%) sepia(70%) saturate(4261%) hue-rotate(347deg) brightness(97%) contrast(106%);
   width: 20px;
   height: 20px;
-  
 }
 
 
@@ -65,9 +64,12 @@ nav > ul {
 }
 
 .active {
-  border-bottom: 4px solid yellow;
+  /* yellow color */
+  border-bottom: 4px solid rgb(255, 225, 0);
 }
 
+
+/* Section 1 */
 #hero, #hero div{
   display: flex;
   align-items: center;
@@ -93,14 +95,14 @@ nav > ul {
   margin-top: 7%;
 }
 
-main section div p.head1 {
+#hero div p.head1 {
   text-transform: capitalize;
   font-size: 500%;
   margin-bottom: 2%;
   font-weight: bolder;
 }
 
-main section div p.head2 {
+#hero div p.head2 {
   text-transform: uppercase;
   font-size: 300%;
   letter-spacing: 8px;
@@ -108,7 +110,7 @@ main section div p.head2 {
   font-weight: bolder;
 }
 
-main section div p.desc1 {
+#hero div p.desc1 {
   font-size: 100%;
   margin-bottom: 4%;
   margin-left: 18%;
@@ -116,11 +118,145 @@ main section div p.desc1 {
 }
 
 #hero-btn {
-  background-color: yellow;
+  /* yellow color */
+  background-color: rgb(255, 225, 0);
   border: none;
   padding: 17px 60px;
   border-radius: 5px;
   text-transform: uppercase;
   font-size: 80%;
   font-weight: bolder;
+}
+
+
+/* Section 2 */
+
+#search-hotels {
+  /* yellow color */
+  background-color: rgb(255, 225, 0);
+  padding: 5% 15%;
+}
+
+#search-hotels h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5%;
+  font-size: 250%;
+}
+
+#search-hotels .search-form {
+  display: flex;
+  padding: 10px 20px;
+  list-style: none;
+}
+
+
+#search-hotels .search-form p {
+  font-weight: bolder;
+}
+
+
+#search-hotels .search-form {
+  display: flex;
+  justify-content: center;
+}
+
+
+#search-hotels .search-input {
+  border: none;
+  padding: 10px 20px;
+  width: 90%;
+  border-radius: 5px;
+  font-weight: normal;
+}
+
+#search-hotels #find-hotel-btn {
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 80%;
+  font-weight: bolder;
+  width: 150%;
+}
+
+
+/* Section 3 */
+#trusted {
+  display: flex;
+  justify-content: stretch;
+  /* align-items: center; */
+}
+
+#trusted .img-train {
+  background: url("/assets/train.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+#trusted > div {
+  width: 50vw
+}
+
+.trusted-data {
+  background-color: rgb(241, 240, 240);
+}
+
+.trusted-data > div {
+  overflow: scroll;
+  padding-top: 10%; 
+  padding-bottom: 3%;
+  padding-left: 10%;
+  padding-right: 25%;
+}
+
+
+.trusted-data h1 {
+  font-size: 250%;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-bottom: 1%;
+}
+
+.trusted-data h2 {
+  font-size: 250%;
+  font-weight: normal;
+  text-transform: capitalize;
+  margin-bottom: 6%;
+}
+
+
+.trusted-data p.paragraph {
+  line-height: 150%;
+  font-size: large;
+  margin-bottom: 8%;
+}
+
+
+.trusted-data li {
+  display: flex;
+  
+}
+
+.trusted-data ul {
+  padding-right: 10%;
+  
+}
+
+.trusted-data li p {
+  line-height: 150%;
+  font-size: large;
+  margin-bottom: 5%;
+}
+
+.trusted-data img.tick-icon-logo {
+  margin-right: 15px;
+  width: 25px;
+  height: 25px;
+
+  /* blue color  */
+  filter: brightness(0) saturate(100%) invert(31%) sepia(70%) saturate(2931%) hue-rotate(194deg) brightness(100%) contrast(94%);
+
 }
