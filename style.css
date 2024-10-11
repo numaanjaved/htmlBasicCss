@@ -14,7 +14,7 @@ header{
 
 }
 
-header .container, .container1, .container2{
+header .container1, .container2{
     margin-top: 20px;
     display: flex;
     color: black;
@@ -30,6 +30,9 @@ header .container{
 }
 
 
+#branding1{
+    margin-left: 100px;
+}
 
 /*header .container1{
     margin-top: 20px;
@@ -112,22 +115,25 @@ header li{
 
 .background-boxes{
     margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 .background-boxes .container{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
+    
 }
 
 .background-box1, .background-box2{
-    background-image: url(./assets/images/laptop.jpg);
+    background-image: url(./assets/images/newgirlbackgrnd.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 150px; /* Set a minimum height */
-    max-width: 400px; /* Set a maximum height */
+    margin: 0 25px;
+    min-height: 190px; /* Set a minimum height */
+    max-width: 520px; /* Set a maximum height */
+    
 }
 
 #middle-text{
@@ -153,6 +159,43 @@ header li{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+#background-items{
+    margin-top: 40px;
+}
+
+#background-items .bckgrnd-container{
+    display: flex;
+}
+
+#background-items .bckgrnd-container .item-bckgrnd1{
+    background: url(./assets/images/.png);
+    background-size:  ;
+    padding-top: ;
+}
+
+
+
+.form-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cstm-form {
+    margin-right: 10px;
+}
+
+input{
+    width: 300px;;
+}
+
+button{
+    width: 70px;
 }
 
 .sale-banner{
