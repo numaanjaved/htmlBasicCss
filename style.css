@@ -138,3 +138,50 @@ header li{
     text-align: center;
     
 }
+
+.items .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto ;
+    max-width: 1200px;
+}
+
+#middle-text2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.sale-banner{
+    margin-top: 70px;
+}
+
+
+.sale-banner .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    margin-left: 100px;
+        
+}
+
+.vertical-box1{
+   margin-left: 100px;
+}
+
+.vertical-box3{
+margin-right: 100px;    
+}
+
+#Divider{
+    margin-top: 30px;
+}
+
+#Divider .container hr{
+    color: red;
+    font-size: large;
+}
