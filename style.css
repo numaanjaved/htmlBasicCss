@@ -153,6 +153,22 @@ header li{
     max-width: 1200px;
 }
 
+#sale-banner{
+    margin-top: 50px;
+}
+
+#sale-banner .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto ;
+    max-width: 1200px;  
+}
+
+
+
+
+
 #middle-text2{
     margin-top: 30px;
     display: flex;
@@ -162,17 +178,15 @@ header li{
 }
 
 #background-items{
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 #background-items .bckgrnd-container{
     display: flex;
-}
-
-#background-items .bckgrnd-container .item-bckgrnd1{
-    background: url(./assets/images/.png);
-    background-size:  ;
-    padding-top: ;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto ;
+    max-width: 1200px;
 }
 
 
@@ -198,6 +212,7 @@ button{
     width: 70px;
 }
 
+/*
 .sale-banner{
     margin-top: 70px;
 }
@@ -219,12 +234,15 @@ button{
 .vertical-box3{
 margin-right: 100px;    
 }
-
-#Divider{
-    margin-top: 30px;
+*/
+.snips{
+    margin-top: 50px;
 }
 
-#Divider .container hr{
-    color: red;
-    font-size: large;
+.snips .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto ;
+    max-width: 1200px;
 }
