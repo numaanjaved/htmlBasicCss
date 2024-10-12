@@ -246,3 +246,40 @@ margin-right: 100px;
     margin: auto ;
     max-width: 1200px;
 }
+
+
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #f8235b;
+    text-align: center;
+}
+
+#footer-section .container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto ;
+    max-width: 1200px;
+    
+}
+
+#footer-mini-section{
+    margin-top: 50px;
+}
+
+#footer-mini-section .mini-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.footer-copyrights{
+    margin-top: 20px;
+}
