@@ -23,16 +23,7 @@ header .container{
 
 }
 
-/*
-header .container1.5 .custom-hr{
-    margin-top: 20px;
-    display: flex;
-    color: black;
-    justify-content: space-around;
-    align-items: center;
-        
 
-}*/
 
 header .container1, .container2{
     margin-top: 20px;
@@ -51,21 +42,7 @@ header .container1, .container2{
     margin-left: 100px;
 }
 
-/*header .container1{
-    margin-top: 20px;
-    display: flex;
-    color: black;
-    justify-content: space-between;
-    align-items: center;
-    
-}*/
 
-/*header .container2{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}*/
 
 
 
@@ -158,7 +135,17 @@ header li{
     background-repeat: no-repeat;
     text-align: center;
     max-width: 512px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button1{
+    margin-top: 12px;
+    margin-left: 210px;
+    background-color: #fc226e;
+    width: 20%;
+    min-height:30px;
+    color: white;
 }
 
 #middle-text{
@@ -176,106 +163,63 @@ header li{
     justify-content: center;
 }
 
-/*
-
-#Products{
-    background-color: whitesmoke
-}
-
-#Products .container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto;
-    max-width: 1200px;
-    flex-wrap: wrap; 
-    
-}
-
-
-.background-boxes{
+#middle-text2{
     margin-top: 60px;
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-.background-boxes .container{
-    display: flex;
-    
-}
-
-.background-box1, .background-box2{
-    background-image: url(./assets/images/newgirlbackgrnd.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0 25px;
-    min-height: 190px; /* Set a minimum height */
-    max-width: 520px; /* Set a maximum height */
-    
-/*
-
-#middle-text{
-    margin-top: 30px;
-    display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
+    margin-bottom: -50px;
+    background-color: #d8d8d8;
+}
+.txt-below-items{
+    color: #020202 ;
+    font-weight: bold;
+    font-size:xx-large;
     
-}*/
+}
 
-/*.items .container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: auto ;
-    max-width: 1200px;
-}*/
 
-#sale-banner{
+#background-images{
     margin-top: 50px;
 }
+#background-images .container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+    background-color: #d8d8d8;
+}
+#background-images .container .img1 .text-area{
+    background-color: #ffffff;
+    margin-bottom: 45px;
+    padding-bottom: 10px;
+}
+
+#background-images .container .img1 .button2{
+    background-color: #fc226e;
+    color: white;
+    width: 30%;
+}
+
 
 #sale-banner .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: auto ;
-    max-width: 1200px;  
+    max-width: 1200px;
+    margin-top: 20px;  
 }
 
-
-
-
-
-#middle-text2{
-    margin-top: 40px;
+#middle-text3{
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: #d8d8d8;
     margin-bottom: -50px;
 }
-
-#background-items{
-    margin-top: 50px;
-    background-color: #d8d8d8;
-}
-
-#background-items .bckgrnd-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 1200px;
-    margin-left: 400px;
-
-    
-}
-
-
-
 .form-container{
     margin-top: 30px;
     display: flex;
@@ -297,29 +241,7 @@ button{
     width: 70px;
 }
 
-/*
-.sale-banner{
-    margin-top: 70px;
-}
 
-
-.sale-banner .container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-    margin-left: 100px;
-        
-}
-
-.vertical-box1{
-   margin-left: 100px;
-}
-
-.vertical-box3{
-margin-right: 100px;    
-}
-*/
 .snips{
     margin-top: 90px;
 }
