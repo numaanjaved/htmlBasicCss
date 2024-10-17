@@ -19,3 +19,14 @@ body{
     font-size: x-large;
     color: ;
 }
+.box{
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+}
+.container h2{
+    color: rgb(126, 118, 118);
+    font-weight: 900;
+    font-size: x-large;
+}
