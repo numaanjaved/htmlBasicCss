@@ -134,7 +134,7 @@ nav > ul {
 #search-hotels {
   /* yellow color */
   background-color: rgb(255, 225, 0);
-  padding: 5% 15%;
+  padding: 5% 10%;
 }
 
 #search-hotels h1 {
@@ -187,7 +187,6 @@ nav > ul {
 #trusted {
   display: flex;
   justify-content: stretch;
-  /* align-items: center; */
 }
 
 #trusted .img-train {
@@ -217,14 +216,14 @@ nav > ul {
   font-size: 250%;
   font-weight: bolder;
   text-transform: capitalize;
-  margin-bottom: 1%;
+  margin-bottom: 5px;
 }
 
 .trusted-data h2 {
   font-size: 250%;
   font-weight: normal;
   text-transform: capitalize;
-  margin-bottom: 6%;
+  margin-bottom: 30px;
 }
 
 
@@ -259,4 +258,72 @@ nav > ul {
   /* blue color  */
   filter: brightness(0) saturate(100%) invert(31%) sepia(70%) saturate(2931%) hue-rotate(194deg) brightness(100%) contrast(94%);
 
+}
+
+
+
+/* Section 4 */
+#section-4 {
+  padding: 5% 10%;
+}
+
+#section-4 > h1 {
+  text-align: center;
+  font-size: 250%;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+#section-4 > h2 {
+  text-align: center;
+  font-size: 250%;
+  font-weight: normal;
+  text-transform: capitalize;
+  margin-bottom: 80px;
+}
+#section-4 .best-services {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#section-4 .service {
+  width: 50%;
+  height: 140px;
+  list-style: none;
+  display: flex;
+}
+/* 
+#section-4 .svc-img {
+  width: 140px;
+  height: 140px;
+} */
+
+#section-4 .nested {list-style: none;}
+
+#section-4 .nested h1 {
+  font-size: 150%;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+#section-4 .nested h3 {
+  font-size: large;
+  font-weight: normal;
+  margin-bottom: 1%;
+  padding-right: 35%;
+}
+
+#section-4 .svc-sm-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 50px;
+  filter: brightness(0) saturate(100%) invert(31%) sepia(70%) saturate(2931%) hue-rotate(194deg) brightness(100%) contrast(94%);
+}
+
+#section-4 .svc-lg-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 70px;
+  filter: brightness(0) saturate(100%) invert(31%) sepia(70%) saturate(2931%) hue-rotate(194deg) brightness(100%) contrast(94%);
 }
