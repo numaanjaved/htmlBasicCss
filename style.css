@@ -7,10 +7,39 @@ body{
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    font-family: sans-serif Arial, Helvetica, sans-serif;
 
 }
 
+.section-wrapper{
+    padding-top: 20px;
+    
+}
 
+.wrapper-container{
+    background-color: #ffffff;
+    width: 50%; margin: 0 auto;
+    padding-bottom: 80px;
+    
+}
+
+.section-wrapper2{
+}
+
+.wrapper-container2{
+    background-color: #dddddd;
+    width: 100%; margin: 0 auto;
+    margin-bottom: -60px;
+    padding-bottom: 50px;
+}
+
+.section-wrapper3{
+    
+}
+.wrapper-container3{
+    background-color: #ffffff;
+    width: 50%; margin: 0 auto;
+}
 
 header{
     min-height: 70px;
@@ -80,6 +109,7 @@ header li{
 
 #showcase .container{
     padding: 150px;
+    margin-bottom: -60px;
 }
 
 #showcase .cstm-f, .cstm-year{
@@ -114,16 +144,15 @@ header li{
     justify-content: space-around;
     align-items: center;
     max-width: 1200px;
-    margin-left: 400px;
 }
 
 
 .background-boxes .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 35px;
     align-items: center;
     max-width: 1200px;
-    margin-left: 400px;
     margin-top: 30px;
 }
 .background-box1, .background-box2{
@@ -164,13 +193,12 @@ header li{
 }
 
 #middle-text2{
-    margin-top: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     margin-bottom: -50px;
-    background-color: #d8d8d8;
+   
 }
 .txt-below-items{
     color: #020202 ;
@@ -188,7 +216,7 @@ header li{
     gap: 30px;
     justify-content: center;
     text-align: center;
-    background-color: #d8d8d8;
+    
 }
 #background-images .container .img1 .text-area{
     background-color: #ffffff;
@@ -209,7 +237,6 @@ header li{
     align-items: center;
     margin: auto ;
     max-width: 1200px;
-    margin-top: 20px;  
 }
 
 #middle-text3{
