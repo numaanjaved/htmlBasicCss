@@ -1,8 +1,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 #navbar{
-    background-color: darkgray;
+    padding-top: 5px;
     color: white;
 }
 #navbar li{
@@ -14,16 +15,27 @@ body{
     font-size: 12px;
     padding: 5px;
 }
+#top{
+    background-image: url("../CSS/background.jpg");
+    max-height: 500px;
+    background-size: 100% 100%;
+}
 .header{
     font-size: x-large;
-    color: ;
+    color: white;
+    opacity: 70%;
     padding: 50px;
+    padding-right: 30%;
+    text-align: center;
+    
 }
 header button{
     background-color: white;
     color: black;
     border-radius: 10px;
     border-color: white;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 .box{
     padding-left: 60px;
@@ -58,4 +70,29 @@ header button{
     border-color: red;
     border-radius: 10px;
     padding: 8px;
+}
+footer{
+    background-color: black;
+}
+footer h2{
+    color: gray;
+    text-align: center;
+    padding-top: 15px;
+}
+.grid-footer{
+    color: gray;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 20%;
+}
+.logos li{
+    display: inline;
+    padding: 5px;
+}
+.logos a{
+    color: gray;
+    text-decoration: none;
+    align-items: center;
+    padding-bottom: 5px;
 }
