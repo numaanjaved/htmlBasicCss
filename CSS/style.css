@@ -18,12 +18,13 @@ body{
 .header{
     font-size: x-large;
     color: ;
+    padding: 50px;
 }
 .box{
     padding-left: 60px;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-right: 100px;
+    padding-right: 600px;
 }
 .container h2{
     color: rgb(126, 118, 118);
@@ -34,6 +35,19 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 0 200px ;
+    color: gray;
+}
+.box2 h2{
+    text-align: center;
+}
+.box3{
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 600px;
+}
+section .box#read-more{
+    color: black;
+    background-color: red;
 }
