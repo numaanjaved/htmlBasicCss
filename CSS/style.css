@@ -47,7 +47,7 @@ body{
     padding-bottom: 30px;
     padding-right: 600px;
 }
-section .box#read-more{
+#read-more{
     color: black;
     background-color: red;
 }
