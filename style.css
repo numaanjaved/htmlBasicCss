@@ -19,7 +19,7 @@ body{
 .wrapper-container{
     background-color: #ffffff;
     width: 50%; margin: 0 auto;
-    padding-bottom: 80px;
+    margin-bottom: -0px;
     
 }
 
@@ -39,6 +39,15 @@ body{
 .wrapper-container3{
     background-color: #ffffff;
     width: 50%; margin: 0 auto;
+    margin-bottom: -60px;
+
+}
+
+.wrapper-container4{
+    background-color:#eeeeee ;
+    width: 100%; margin: 0 auto;
+    padding-top: 30px;
+
 }
 
 header{
@@ -109,7 +118,7 @@ header li{
 
 #showcase .container{
     padding: 150px;
-    margin-bottom: -60px;
+    margin-bottom: -90px;
 }
 
 #showcase .cstm-f, .cstm-year{
@@ -139,11 +148,23 @@ header li{
     margin-top: 30px;
     font-size: 18px;
 }
+
 #main-section .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     max-width: 1200px;
+    
+}
+
+#main-section .container .box1, .box2, .box3 .circular-shape{
+    width: 80px;
+    height: 40px;
+    background-color: #fff; 
+    border: 5px solid #ccc;
+    border-radius: 100px 100px 0 0;
+    margin-bottom: 100px;
+    
 }
 
 
@@ -190,6 +211,7 @@ header li{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 80px;
 }
 
 #middle-text2{
@@ -253,6 +275,7 @@ header li{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding-bottom: 100px;
     
 }
 
@@ -269,23 +292,20 @@ button{
 }
 
 
-.snips{
-    margin-top: 90px;
-}
 
-.snips .container{
+
+.images-withbackground{
+    background-color: #eeeeee;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: auto ;
     max-width: 1200px;
+    
 }
-
-
 
 footer{
     padding: 20px;
-    margin-top: 40px;
     color: #ffffff;
     background-color: #f8235b;
     text-align: center;
