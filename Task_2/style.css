@@ -65,7 +65,7 @@ header .fa {
     margin-right: 15%;
   }
 
-  h3, p{
+  header#next h3, p{
     margin: 0;
     padding: 0;
     line-height: 15px;
@@ -120,7 +120,46 @@ header .fa {
 
   header#next nav button:hover{
     cursor: pointer;
-    line-height: 15px;
   }
 
+  /* SHOWCASE */
+
+  section {
+    background: url(./img/img.png)no-repeat;
+    min-height: 400px;
+    max-width: 100%; 
+    background-size: 100% 100%;
+    text-align: center;
+    color: #fff;
+  }
+
+  #showcase h1 .highlight{
+    color: green;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+  }
+
+  #showcase h1{
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  /*side bar*/
+  
+aside#sidebar{
+    float: right;
+    width: 30%;
+}
+aside#sidebar p{
+    margin-top: -80px;
+}
+aside#sidebar button{
+    background-color: green;
+    border-radius: 10px;
+    color: #e7e4e4;
+}
+aside#sidebar button:hover{
+    cursor: pointer;
+}
 
