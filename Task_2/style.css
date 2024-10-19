@@ -33,7 +33,7 @@ header .fa {
   }
   
  header .fa:hover {
-      opacity: 0.7;
+    opacity: 0.7;
   }
 
  header #info li {
@@ -56,7 +56,7 @@ header .fa {
   }
 
   header .highlight2{
-    color: green;
+    color: #3fc43f;
   }
   
   header#next{
@@ -113,7 +113,7 @@ header .fa {
   }
 
   header#next nav button{
-    background-color: green;
+    background-color: #3fc43f;
     border-radius: 10px;
     color: #e7e4e4;
   }
@@ -124,20 +124,34 @@ header .fa {
 
   /* SHOWCASE */
 
-  section {
-    background: url(./img/img.png)no-repeat;
-    min-height: 400px;
-    max-width: 100%; 
-    background-size: 100% 100%;
-    text-align: center;
-    color: #fff;
+  section .image-container{
+    position: relative;
+    display: inline-block;
   }
 
+section img{
+    filter: brightness(50%);
+    display: block;
+    background-image: no-repeat;
+    min-height: auto;
+    max-width: 100%;
+    text-align: center;
+    color: #fff;
+  }  
+
+  section .overlay-text{
+    position: absolute;
+    top: 50%;
+    pad: 10px 20px;
+    text-align: center;
+  }
+  
   #showcase h1 .highlight{
-    color: green;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    color: #4aed4a;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
   }
 
   #showcase h1{
+    color: #fff;
     text-align: left;
     padding-left: 50px;
     padding-top: 50px;
@@ -152,14 +166,120 @@ aside#sidebar{
     width: 30%;
 }
 aside#sidebar p{
-    margin-top: -80px;
+    color: #fff;
+    margin-top: -100px;
 }
 aside#sidebar button{
-    background-color: green;
+    background-color: #3fc43f;
     border-radius: 10px;
     color: #e7e4e4;
 }
 aside#sidebar button:hover{
     cursor: pointer;
 }
+
+/* Block */
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing:border-box
+}
+
+.block #box1 img{
+    display: block;
+    background-image: no-repeat;
+    min-height: auto;
+    max-width: 100%;
+}
+
+.block #box1 h3, .block #box3 h3{
+    color: #242f51;
+    font-size: small;
+}
+
+.block #box1 p, .block #box3 p{
+    color: #58595b;
+    font-size: small;
+}
+
+.block #box1 p.right, .block #box3 p.right{
+    float: right;
+    color: #3fc43f;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.block #box2 img{
+    display: block;
+    background-image: no-repeat;
+    min-height: auto;
+    max-width: 100%;
+}
+
+.block #box2 .my-form{
+    padding: 20px;
+}
+
+.block #box2 .my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.block #box2 .my-form input [type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.block #box2 .form-group label{
+    color: #242f51;
+    font-size: small;
+}
+
+.block #box2 h3, h4{
+    text-align: center;
+}
+
+
+.block #box2 .form-group .button{
+    background-color: #3fc43f;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border: #3fc43f;
+}
+
+.block #box2 .form-group .button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.block #box3 img{
+    display: block;
+    background-image: no-repeat;
+    min-height: auto;
+    max-width: 100%;
+}
+
+.block .image-container{
+    position: relative;
+    display: inline-block;
+  }
+
+.block img{
+    display: block;
+    background-image: no-repeat;
+    min-height: 100%;
+    max-width: 100%;
+    text-align: center;
+    color: #fff;
+  }  
+
+  .block .overlay-text{
+    position: absolute;
+    top: 50%;
+    pad: 10px 20px;
+    text-align: center;
+  }
 
