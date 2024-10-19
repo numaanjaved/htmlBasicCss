@@ -10,16 +10,37 @@ body{
     font-family: sans-serif Arial, Helvetica, sans-serif;
 
 }
+.shapes-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 210px;
+    margin-bottom: -25px;
+    margin-right: 30px;
+}
+.circle-shape{
+    width: 80px;
+    height: 40px;
+    background-color: #fff; 
+    border: 5px solid white;
+    border-radius: 100px 100px 0 0;
+}
+.circle-shape .center-icon{
+    margin-left: 20px;
+}
 
 .section-wrapper{
     padding-top: 20px;
+    
+    
     
 }
 
 .wrapper-container{
     background-color: #ffffff;
     width: 50%; margin: 0 auto;
-    margin-bottom: -0px;
+    margin-bottom: -40px;
+    
     
 }
 
@@ -31,6 +52,8 @@ body{
     width: 100%; margin: 0 auto;
     margin-bottom: -60px;
     padding-bottom: 50px;
+    margin-top: 0px;
+    
 }
 
 .section-wrapper3{
@@ -118,7 +141,7 @@ header li{
 
 #showcase .container{
     padding: 150px;
-    margin-bottom: -90px;
+    margin-bottom: -100px;
 }
 
 #showcase .cstm-f, .cstm-year{
@@ -147,6 +170,7 @@ header li{
     color: white;
     margin-top: 30px;
     font-size: 18px;
+    margin-right: 150px;
 }
 
 #main-section .container{
@@ -154,18 +178,12 @@ header li{
     justify-content: space-around;
     align-items: center;
     max-width: 1200px;
+    padding-top: 30px;
     
 }
 
-#main-section .container .box1, .box2, .box3 .circular-shape{
-    width: 80px;
-    height: 40px;
-    background-color: #fff; 
-    border: 5px solid #ccc;
-    border-radius: 100px 100px 0 0;
-    margin-bottom: 100px;
-    
-}
+
+
 
 
 .background-boxes .container{
@@ -199,19 +217,24 @@ header li{
 }
 
 #middle-text{
-    margin-top: 50px;
+    padding-top: 60px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #020202;
+    font-size: large;
+
 }
+
 
 .items .container{
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 80px;
+    padding-bottom: 60px;
 }
 
 #middle-text2{
