@@ -80,8 +80,11 @@ header{
 }
 
 header .container{
-    margin-left: 40px;
-
+    margin-left: 0px;
+    background-color: #a92355;
+    background: url(./assets/images/final-bckgrnd-img.PNG);
+    min-height: 50px;
+    padding-top: 10px;
 }
 
 
@@ -103,9 +106,17 @@ header .container1, .container2{
     margin-left: 100px;
 }
 
+.branding4{
+    margin-left:1000px;
+}
 
-
-
+.branding5{
+    margin-right: 200px;
+    
+}
+.container2 .me-h3{
+    font-size: 20px;
+}
 
 
 header a{
