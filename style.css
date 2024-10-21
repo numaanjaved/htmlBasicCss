@@ -80,30 +80,54 @@ header{
 }
 
 header .container{
-    margin-left: 0px;
-    background-color: #a92355;
     background: url(./assets/images/final-bckgrnd-img.PNG);
     min-height: 50px;
     padding-top: 10px;
+    
 }
 
-
+header .container1{
+    background: url(./assets/images/header-container2bckgrnd.jpg);
+    
+}
 
 header .container1, .container2{
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     color: black;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    
 
+}
+.container2{
+    margin-right: 00px;
+    background: url(./assets/images/header-container2bckgrnd.jpg);
+
+}
+header .container2 .me-h3{
+    margin-left: 100px;
+}
+
+header {
+    background: #e3f5ff;
+    
 }
 
 
 
 
 #branding1{
-    margin-left: 100px;
+    margin-left: 200px;
+}
+.custom-para{
+    margin-left: 140px;
+
+}
+.branding3{
+    margin-left: 200px;
+}
+.branding3 .custom-email-p{
+    margin-left: 0px; 
 }
 
 .branding4{
@@ -114,8 +138,12 @@ header .container1, .container2{
     margin-right: 200px;
     
 }
+.branding5 .custom-usd{
+    margin-left: 30px;
+}
 .container2 .me-h3{
     font-size: 20px;
+    margin-right: 500px;
 }
 
 
