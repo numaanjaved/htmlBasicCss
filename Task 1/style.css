@@ -267,14 +267,14 @@ nav > ul {
   padding: 5% 10%;
 }
 
-#section-4 > h1 {
+.head-1 {
   text-align: center;
   font-size: 250%;
   text-transform: capitalize;
   margin-bottom: 5px;
 }
 
-#section-4 > h2 {
+.head-2 {
   text-align: center;
   font-size: 250%;
   font-weight: normal;
@@ -292,11 +292,7 @@ nav > ul {
   list-style: none;
   display: flex;
 }
-/* 
-#section-4 .svc-img {
-  width: 140px;
-  height: 140px;
-} */
+
 
 #section-4 .nested {list-style: none;}
 
@@ -326,4 +322,70 @@ nav > ul {
   height: 60px;
   margin-right: 70px;
   filter: brightness(0) saturate(100%) invert(31%) sepia(70%) saturate(2931%) hue-rotate(194deg) brightness(100%) contrast(94%);
+}
+
+
+/* Section 5 */
+
+#section-5 {
+  padding: 5% 10%;
+  background: url("/assets/section-5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#section-5 > div {
+  display: flex;
+  justify-content: center;
+}
+
+.s5-card {
+  background-color: white;
+  width: 310px;
+  height: 340px;
+  border-radius: 12px;
+  padding: 25px 0;
+  margin: 10px 30px;
+}
+
+.s5-lg-logo { width: 60px; height: 60px; }
+
+.s5-headline {
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.s5-offer-price {
+  display: grid;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: rgb(255, 225, 0);
+  width: 320px;
+  height: 50px;
+  margin-left: -5px;
+}
+
+
+.s5-card-list {
+  font-size: 15px;
+  list-style: none;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 75px;
+}
+
+.s5-list-logo {
+  filter: brightness(0) saturate(100%) invert(31%) sepia(70%) saturate(2931%) hue-rotate(194deg) brightness(100%) contrast(94%);
+  margin-right: 15px;
+}
+
+.s5-list {
+  display: flex;
+  margin-bottom: 5px;
 }
