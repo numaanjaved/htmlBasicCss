@@ -79,7 +79,7 @@ nav > ul {
 
 
 #hero {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.737), rgba(0, 0, 0, 0.471)), url("/assets/top-image.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.737), rgba(0, 0, 0, 0.471)), url("./assets/top-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 800px;
@@ -190,7 +190,7 @@ nav > ul {
 }
 
 #trusted .img-train {
-  background: url("/assets/train.jpg");
+  background: url("./assets/train.jpg");
   background-size: cover;
   height: 100%;
 }
@@ -329,7 +329,7 @@ nav > ul {
 
 #section-5 {
   padding: 5% 13%;
-  background: url("/assets/section-5.png");
+  background: url("./assets/section-5.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -403,7 +403,7 @@ nav > ul {
 .s6-leftside {
   width: 350px;
   height: 75%px;
-  background: url("/assets/section-6.jpg");
+  background: url("./assets/section-6.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
