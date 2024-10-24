@@ -279,7 +279,7 @@ nav > ul {
   font-size: 250%;
   font-weight: normal;
   text-transform: capitalize;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 #section-4 .best-services {
   display: flex;
@@ -418,7 +418,7 @@ nav > ul {
 
 .s6-options {
   display: flex;
-  border: 4px solid rgb(19, 180, 244);
+  border: 4px solid #087fec;
   width: 650px;
 }
 
@@ -441,7 +441,7 @@ nav > ul {
   height: 0;
   border-top: 40px solid rgb(194, 194, 194);
   border-bottom: 40px solid rgb(194, 194, 194);
-  border-left: 40px solid rgb(19, 180, 244);
+  border-left: 40px solid #087fec;
 
 }
 
@@ -468,4 +468,98 @@ nav > ul {
   font-size: 80%;
   text-transform: uppercase;
   font-weight: bolder;
+}
+
+
+
+/* Section 7 */
+
+#section-7 {
+  /* background-color: grey; */
+  background: url("./assets/s7.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5% 13%;
+  padding-bottom: 8%;
+}
+
+.s7-offers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.s7-side-card {
+  z-index: 1;
+  width: 390px;
+  height: 500px;
+  list-style: none;
+  border-radius: 12px;
+  background-color: white;
+  text-align: center;
+}
+
+
+.s7-side-card-image {
+  border-radius: 12px 12px 0 0;
+  width: 390px;
+  height: 240px;
+}
+
+.center-card-wrap {
+  filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.14)) drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.12)) drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.s7-center-card {
+  width: 410px;
+  height: 550px;
+  list-style: none;
+  border-radius: 12px 12px 0 0;
+  background-color: white;
+  text-align: center;
+}
+
+.s7-center-card-image {
+  border-radius: 12px 12px 0 0;
+  width: 410px;
+  height: 250px;
+}
+
+.s7-triangle {
+  width: 0;
+  height: 0;
+  border-top: 70px solid white;
+  border-left: 205px solid transparent;
+  border-right: 205px solid transparent;
+}
+
+.s7-head1 {font-size: 120%; padding-top: 10px;}
+.s7-head2 {font-size: 180%; font-weight: bolder; padding: 3px 0 10px 0;}
+.s7-paragraph {padding: 0 70px; font-size: 15px; line-height: 23px; padding: 0 60px;}
+.s7-price-tag {font-size: 180%; font-weight: bolder; padding: 10px 0 18px 0;}
+
+.s7-button {
+  background-color: rgb(255, 225, 0);
+  padding: 12px 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: 80%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.s7-center-head1 {font-size: 120%; padding-top: 10px;}
+.s7-center-head2 {font-size: 200%; font-weight: bolder; padding: 5px 0 13px 0;}
+.s7-center-paragraph {padding: 0 70px; font-size: 15px; line-height: 23px; padding: 0 70px;}
+.s7-center-price-tag {font-size: 200%; font-weight: bolder; padding: 15px 0 25px 0;}
+
+.s7-center-button {
+  background-color: rgb(255, 225, 0);
+  padding: 14px 46px;
+  border-radius: 5px;
+  border: none;
+  font-size: 80%;
+  font-weight: bold;
+  text-transform: uppercase;
 }
